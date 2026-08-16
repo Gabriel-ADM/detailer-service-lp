@@ -664,7 +664,7 @@ export default function App() {
       </section>
 
       {/* SERVICES FLYER */}
-      <section className="py-12 px-4">
+      {/* <section className="py-12 px-4">
         <div className="max-w-md mx-auto">
           <div className="text-center mb-6 space-y-2">
             <p className="text-primary text-sm font-semibold uppercase tracking-widest">Tabela Completa</p>
@@ -683,7 +683,7 @@ export default function App() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CONTACT / FOOTER */}
       <section id="contato" className={`py-20 px-4 transition-colors duration-300 ${lightMode ? "bg-white" : "bg-gradient-to-b from-background to-card/60"}`}>
