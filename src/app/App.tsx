@@ -320,7 +320,7 @@ export default function App() {
 
             <p className={`text-lg leading-relaxed max-w-md ${lightMode ? "text-gray-600" : "text-muted-foreground"}`}>
               <span className={`font-semibold ${lightMode ? "text-gray-900" : "text-white"}`}>A estética vai até você.</span>{" "}
-              Lavagens e detalhamentos premium para motos e carros — on demand ou por assinatura — sem sair de casa.
+              Lavagens e detalhamentos premium para motos e carros — sob demanda ou por assinatura — sem sair de casa.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -347,7 +347,7 @@ export default function App() {
             <div className="flex gap-6 pt-2">
               {[
                 { label: "Serviços", value: "5+" },
-                { label: "On Demand", value: "✓" },
+                { label: "Sob Demanda", value: "✓" },
                 { label: "Assinatura", value: "✓" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
